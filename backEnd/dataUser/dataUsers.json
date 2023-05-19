@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Player 1",
+    "rounds": [
+      {
+        "roundIndex": 0,
+        "score": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Player 2",
+    "rounds": [
+      {
+        "roundIndex": 0,
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "abcxyz",
+    "rounds": [
+      {
+        "roundIndex": 0,
+        "score": -2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "123",
+    "rounds": [
+      {
+        "roundIndex": 0,
+        "score": 0
+      }
+    ]
+  }
+]
