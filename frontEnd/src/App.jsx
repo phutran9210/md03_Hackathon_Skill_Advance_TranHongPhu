@@ -72,31 +72,43 @@ function App() {
       <>
         <div>
           <AddPlayerForm onAdd={addPlayer} />
+          <div className="players-container">
+            {players.map((player) => (
+              <div className="player" key={player.id}>
+                <h2>{player.name}</h2>
+                {player.rounds.map((round, roundIndex) => (
+                  <p key={roundIndex}>
+                    Round {round.roundIndex + 1}: {round.score}
+                    <button
+                      className="btn themBtn"
+                      onClick={() =>
+                        updateScore(
+                          player.id,
+                          round.roundIndex,
+                          round.score + 1
+                        )
+                      }
+                    >
+                      Tăng
+                    </button>
+                    <button
+                      className="btn giamBtn"
+                      onClick={() =>
+                        updateScore(
+                          player.id,
+                          round.roundIndex,
+                          round.score - 1
+                        )
+                      }
+                    >
+                      Giảm
+                    </button>
+                  </p>
+                ))}
+              </div>
+            ))}
+          </div>
           <AddRoundButton onAdd={addRound} />
-          {players.map((player) => (
-            <div key={player.id}>
-              <h2>{player.name}</h2>
-              {player.rounds.map((round, roundIndex) => (
-                <p key={roundIndex}>
-                  Round {round.roundIndex + 1}: {round.score}
-                  <button
-                    onClick={() =>
-                      updateScore(player.id, round.roundIndex, round.score + 1)
-                    }
-                  >
-                    Increase Score
-                  </button>
-                  <button
-                    onClick={() =>
-                      updateScore(player.id, round.roundIndex, round.score - 1)
-                    }
-                  >
-                    Decrease Score
-                  </button>
-                </p>
-              ))}
-            </div>
-          ))}
         </div>
       </>
     </>

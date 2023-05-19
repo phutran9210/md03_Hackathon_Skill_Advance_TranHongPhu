@@ -6,6 +6,22 @@
       {
         "roundIndex": 0,
         "score": 0
+      },
+      {
+        "roundIndex": 1,
+        "score": -1
+      },
+      {
+        "roundIndex": 2,
+        "score": -6
+      },
+      {
+        "roundIndex": 3,
+        "score": -1
+      },
+      {
+        "roundIndex": 4,
+        "score": 5
       }
     ]
   },
@@ -15,7 +31,23 @@
     "rounds": [
       {
         "roundIndex": 0,
-        "score": 3
+        "score": 1
+      },
+      {
+        "roundIndex": 1,
+        "score": 0
+      },
+      {
+        "roundIndex": 2,
+        "score": 0
+      },
+      {
+        "roundIndex": 3,
+        "score": 1
+      },
+      {
+        "roundIndex": 4,
+        "score": 0
       }
     ]
   },
@@ -25,7 +57,23 @@
     "rounds": [
       {
         "roundIndex": 0,
-        "score": -2
+        "score": 0
+      },
+      {
+        "roundIndex": 1,
+        "score": 0
+      },
+      {
+        "roundIndex": 2,
+        "score": 4
+      },
+      {
+        "roundIndex": 3,
+        "score": -5
+      },
+      {
+        "roundIndex": 4,
+        "score": 0
       }
     ]
   },
@@ -35,6 +83,22 @@
     "rounds": [
       {
         "roundIndex": 0,
+        "score": -4
+      },
+      {
+        "roundIndex": 1,
+        "score": 0
+      },
+      {
+        "roundIndex": 2,
+        "score": 0
+      },
+      {
+        "roundIndex": 3,
+        "score": -5
+      },
+      {
+        "roundIndex": 4,
         "score": 0
       }
     ]
